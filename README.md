@@ -62,10 +62,10 @@ $ yarn android
     ├── app2/
     │   │── components.js
     │   │── index.js
-    │   └── package.js
+    │   └── package.json
     └── navigation/
         │── index.js
-        └── package.js
+        └── package.json
 ```
 
 - `./App.js` is the shell module which imports the main navigator module and starts the app;

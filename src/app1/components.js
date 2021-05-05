@@ -1,5 +1,6 @@
 import React from 'react'
 import { Button, View, Text } from 'react-native'
+import { SharedComponent } from '../shared'
 
 const AppOneScreenOne = ({ navigation }) => (
   <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
@@ -8,6 +9,7 @@ const AppOneScreenOne = ({ navigation }) => (
       title="Go to screen 2"
       onPress={() => navigation.navigate('AppOneScreenTwo')}
     />
+    <SharedComponent />
   </View>
 )
 
@@ -18,6 +20,7 @@ const AppOneScreenTwo = ({ navigation }) => (
       title="Go to screen 1"
       onPress={() => navigation.navigate('AppOneScreenOne')}
     />
+    <SharedComponent />
   </View>
 )
 

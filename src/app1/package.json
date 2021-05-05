@@ -1,0 +1,7 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "app1 module",
+  "main": "index.js",
+  "license": "MIT"
+}

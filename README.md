@@ -63,13 +63,17 @@ $ yarn android
     │   │── components.js
     │   │── index.js
     │   └── package.json
-    └── navigation/
+    ├── navigation/
+    │   │── index.js
+    │   └── package.json
+    └── shared/
         │── index.js
         └── package.json
 ```
 
-- `./App.js` is the shell module which imports the main navigator module and starts the app;
-- `./src` folder is where the modules are;
-- `./navigation/index.js` is the main navigator module that navigate between the other modules;
-- `./app1/index.js` and `./app2/index.js` handles the independent navigator for their own modules;
-- `./app1/components.js` and `./app2/components.js` are pure components to visually show the navigation.
+- `.App.js` is the shell module which imports the main navigator module and starts the app;
+- `.src/` folder is where the modules are;
+- `.src/navigation/index.js` is the main navigator module that navigate between the other modules;
+- `.src/app1/index.js` and `.src/app2/index.js` handles the independent navigator for their own modules;
+- `.src/app1/components.js` and `.src/app2/components.js` are pure components to visually show the navigation.
+- `.src/shared/` folder is where the shared components and utils are

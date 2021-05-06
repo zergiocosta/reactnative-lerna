@@ -54,6 +54,8 @@ $ yarn android
 ```
 .
 │── App.js
+│── package.json
+│── lerna.json
 └── src/
     ├── app1/
     │   │── components.js
